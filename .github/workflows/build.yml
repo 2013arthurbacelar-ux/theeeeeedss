@@ -30,13 +30,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: the-stalker-jar
-          path: |
-            **/build/libs/*.jar
-            !**/build/libs/*-sources.jar
-      - name: Upload jar
-        uses: actions/upload-artifact@v4
-        with:
-          name: the-stalker-jar
           include-hidden-files: true
           path: |
             **/build/libs/*.jar
