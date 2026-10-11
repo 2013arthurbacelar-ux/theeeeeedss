@@ -1,0 +1,9 @@
+{
+  "stalker_breath":      { "subtitle": "subtitles.stalker.breath",      "sounds": ["stalker:breath"] },
+  "stalker_step":        { "subtitle": "subtitles.stalker.step",        "sounds": ["stalker:step"] },
+  "stalker_whisper":     { "subtitle": "subtitles.stalker.whisper",     "sounds": ["stalker:whisper"] },
+  "stalker_scream":      { "subtitle": "subtitles.stalker.scream",      "sounds": ["stalker:scream"] },
+  "stalker_heartbeat":   { "subtitle": "subtitles.stalker.heartbeat",   "sounds": ["stalker:heartbeat"] },
+  "stalker_chase_start": { "subtitle": "subtitles.stalker.chase_start", "sounds": ["stalker:chase_start"] },
+  "stalker_beep":        { "subtitle": "subtitles.stalker.beep",        "sounds": ["stalker:beep"] }
+}

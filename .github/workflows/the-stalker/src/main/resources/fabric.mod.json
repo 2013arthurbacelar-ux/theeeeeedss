@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "stalker",
+  "version": "${version}",
+  "name": "The Stalker",
+  "description": "Uma criatura de terror que te observa em silencio... ate voce chegar perto demais.",
+  "authors": [
+    "Voce"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/stalker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stalker.TheStalkerMod"
+    ],
+    "client": [
+      "com.stalker.client.TheStalkerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
